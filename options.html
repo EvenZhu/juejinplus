@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <title>掘金增强扩展</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      label {
+        display: block;
+      }
+
+      textarea {
+        font-family: monospace;
+      }
+
+      .message {
+        display: none;
+        height: 20px;
+        background: #eee;
+        padding: 5px;
+      }
+
+      ol li {
+        line-height: 30px;
+      }
+
+      .contact {
+        margin-top: 50px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .contact a {
+        text-decoration: none;
+      }
+
+      .icon {
+        width: 16px; height: 16px;
+        margin-left: 5px;
+        margin-bottom: 4px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="message"></div>
+    <h3 id='title'>掘金文章模版配置</h3>
+
+    <ol>
+      <li>请将文章模版内容填入下方的编辑</li>
+      <li>点击保存即可保存文章模版内容</li>
+      <li>打开掘金创建中心写文章页面</li>
+      <li>点击浏览器操作栏掘金增强扩展<img class="icon" src="icon.png" /></li>
+      <li>自动读取您配置的文章模版并且完成文章创建！</li>
+    </ol>
+
+    <textarea
+      name="style_url"
+      id="style_url"
+      cols="80"
+      rows="30"
+      placeholder="例如：> **转载时请注明“来自掘金 - EvenZhu”**"
+    ></textarea>
+
+    <br /><br />
+    <button class="submit">保存</button>
+    <button class="reset">重置</button>
+
+    <p class="contact">联系我：<a href="https://juejin.cn/user/3940246036167000">EvenZhu的掘金主页</a></p>
+
+    <script src="options.js"></script>
+  </body>
+</html>

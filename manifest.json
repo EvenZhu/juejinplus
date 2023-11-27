@@ -1,0 +1,20 @@
+{
+  "name": "掘金Plus",
+  "description": "用于稀土掘金社区，写文章时自动导入文章模版",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "掘金Plus",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
